@@ -38,7 +38,7 @@ public class BoardController {
 
         return "message";
     }
-    //w
+    //w22222
 
     @GetMapping("/board/list")
     public String boardlist(Model model, @PageableDefault(page = 0, size = 10, sort = "id", direction = Sort.Direction.DESC) Pageable pageable){
